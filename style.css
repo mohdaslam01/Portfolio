@@ -1,0 +1,33 @@
+h1{
+    color: rgb(18, 60, 75);
+    text-transform: capitalize;
+    text-align: center;
+}
+h2{
+    color: rgba(18, 60, 75, 0.9);
+    text-transform: capitalize;
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+img{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li{
+    font-family: sans-serif;
+}
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
