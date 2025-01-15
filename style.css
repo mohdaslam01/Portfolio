@@ -30,4 +30,12 @@ footer{
     text-align: center;
 }
 
+aside{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 38, 255);
+}
 
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(18, 60, 75);
+}
