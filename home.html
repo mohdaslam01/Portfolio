@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Header and Footer</title>
+    <style>
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for Header -->
+    
+    <main>
+        <h2>Welcome to My Website</h2>
+        <p>This is the main content of the page.</p>
+    </main>
+    
+    <div id="footer-placeholder"></div> <!-- Placeholder for Footer -->
+    
+    <script>
+        // Function to load external HTML content
+        async function loadComponent(id, file) {
+            const element = document.getElementById(id);
+            const response = await fetch(file);
+            if (response.ok) {
+                element.innerHTML = await response.text();
+            } else {
+                console.error(`Failed to load ${file}: ${response.status}`);
+            }
+        }
+
+        // Load the header and footer
+        loadComponent('header-placeholder', 'header.html');
+        loadComponent('footer-placeholder', 'footer.html');
+    </script>
+    <h1 id="page-title"></h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
