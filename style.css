@@ -1,10 +1,44 @@
+@keyframes colorChange { 
+    0% { color: rgb(255, 0, 0); /* Red */ }
+    50% { color: rgb(0, 0, 255); /* Blue */ } 
+    100% { color: rgb(255, 0, 0); /* Red */ }
+}
+@keyframes colorBackgroundh {
+    0% { color: #ffffff; /* Red */ }
+    50% { color: rgb(0, 0, 255); /* Blue */ } 
+    100% { color: rgb(255, 255, 255); /* Red */ }
+}
+
 h1{
     color: rgb(18, 60, 75);
     text-transform: capitalize;
     text-align: center;
+    transition: color 2s ease-in-out, background-color 2s ease-in-out;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 8px;
+}
+h1:hover{
+    animation: colorChange 4s infinite;
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.052);
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 8px;
 }
 h2{
     color: rgba(18, 60, 75, 0.9);
+    text-transform: capitalize;
+    text-align: center;
+}
+h2:hover{
+    color: rgba(15, 2, 255, 0.9);
     text-transform: capitalize;
     text-align: center;
 }
@@ -38,4 +72,15 @@ aside{
 footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(18, 60, 75);
+}
+.navbackground{
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(18, 60, 75, 0.3);
+}
+.navbackground:hover{
+    font-size: larger;
+    background-color: rgba(102, 175, 201, 0.3);
+    border-radius: 4px 4px;
+    border: 2px solid white;
 }
