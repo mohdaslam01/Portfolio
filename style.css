@@ -83,4 +83,48 @@ footer{
     background-color: rgba(102, 175, 201, 0.3);
     border-radius: 4px 4px;
     border: 2px solid white;
+    color: wheat;
+}
+.relatedpostimg{
+    width: 30px;
+    border-radius: 4px;
+}
+.relatedpostimg:hover{
+    width: 32px;
+    font-size: larger;
+    background-color: rgba(102, 175, 201, 0.3);
+    border: 2px solid rgb(38, 31, 255);
+    color: wheat;
+}
+.relatedpostingli:hover{
+    text-transform: capitalize;
+    color: rgb(255, 0, 0);
+    text-transform: lowercase;
+}
+/* styles.css */
+.relatedpostimg {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.relatedpostimg.expanded {
+    width: 300px; /* Adjust the expanded width as needed */
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border: 2px solid rgb(38, 31, 255);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
 }
