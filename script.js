@@ -20,3 +20,4 @@ if (pageTitleElement && pageTitles[fileName]) {
 } else {
     pageTitleElement.textContent = "Page Not Found"; // Fallback for unknown pages
 }
+

@@ -3,6 +3,11 @@
     50% { color: rgb(0, 0, 255); /* Blue */ } 
     100% { color: rgb(255, 0, 0); /* Red */ }
 }
+@keyframes colorChangeaboutme { 
+    0% { color: rgb(234, 0, 255); /* Red */ }
+    50% { color: rgb(255, 0, 225); /* Blue */ } 
+    100% { color: rgb(255, 0, 212); /* Red */ }
+}
 @keyframes colorBackgroundh {
     0% { color: #ffffff; /* Red */ }
     50% { color: rgb(0, 0, 255); /* Blue */ } 
@@ -21,6 +26,7 @@ h1{
     margin: auto;
     display: block;
     padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0);
 }
 h1:hover{
     animation: colorChange 4s infinite;
@@ -86,7 +92,8 @@ footer{
     color: wheat;
 }
 .relatedpostimg{
-    width: 30px;
+    width: 60px;
+    height: 60px;
     border-radius: 4px;
 }
 .relatedpostimg:hover{
@@ -104,7 +111,7 @@ footer{
 /* styles.css */
 .relatedpostimg {
     transition: all 0.3s;
-    cursor: pointer;
+    cursor: grab;
 }
 
 .relatedpostimg.expanded {
@@ -128,3 +135,163 @@ footer{
     display: none;
     z-index: 999;
 }
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.slider {
+    display: flex;
+    animation: scrollLeft 80s alternate infinite;
+}
+
+.slider img {
+    width: 100px; /* Adjust width */
+    height: 80px;
+    margin-right: 10px;
+    padding: 20px 60px ;
+}
+
+.slider img:hover{
+    border: 0cap solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+@keyframes scrollLeft {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.left, .center, .right {
+    width: 30%; /* Each column takes up 30% width */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.relatedpostingli {
+    display: flex;
+    align-items: center;
+    background: rgba(red, green, blue, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.relatedpostimg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.aboutme {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 115, 115); /* Ensure border is applied */
+    border-radius: 16px 16px 16px 0px;
+    color: rgb(255, 115, 115);;
+
+    /* Centering using flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* Centering in the page */
+    margin: auto;
+    margin-right: 0;
+}
+
+.aboutme:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 115, 115); /* Ensure border is applied */
+    border-radius: 16px 16px 16px 0px;
+    color: rgb(255, 115, 115);;
+
+    /* Centering using flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* Centering in the page */
+    margin: auto;
+    margin-right: 0;
+}
+
+.aboutme-para{
+    font-family: fallback;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: black;    
+    background-color: rgba(255, 255, 255, 0.312);
+    text-align: center;
+    border-radius: 2px solid black;
+}
+
+.mylearning {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 115, 115); /* Ensure border is applied */
+    border-radius: 16px 16px 0px 16px;
+    color: rgb(255, 115, 115);;
+
+    /* Centering using flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* Centering in the page */
+}
+
+.mylearning:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 115, 115); /* Ensure border is applied */
+    border-radius: 16px 16px 0px 16px;
+    color: rgb(255, 115, 115);;
+
+    /* Centering using flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.mylearning-para{
+    font-family: fallback;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: black;    
+    background-color: rgba(255, 255, 255, 0.312);
+    text-align: center;
+    border-radius: 2px solid black;
+}
+
