@@ -246,8 +246,12 @@ ul {
     padding: 10px 20px;
     color: black;    
     background-color: rgba(255, 255, 255, 0.312);
-    text-align: center;
+    text-align: justify;
     border-radius: 2px solid black;
+    width: 60%;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 20px;
 }
 
 .mylearning {
@@ -293,5 +297,7 @@ ul {
     background-color: rgba(255, 255, 255, 0.312);
     text-align: center;
     border-radius: 2px solid black;
+    text-align: justify;
+    width: 60%;
 }
 
