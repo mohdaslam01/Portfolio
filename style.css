@@ -335,3 +335,86 @@ ul {
         flex-direction: column; /* Stacks columns on smaller screens */
     }
 }
+.resume:link, .resume:visited {
+    color: rgb(27, 178, 228);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.resume:hover, .resume:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+.cover:link, .cover:visited {
+    color: rgb(118, 125, 255);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.cover:hover, .cover:active {
+    color: rgb(21, 0, 139);  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+
+.settings:link, .settings:visited {
+    color: rgb(39, 43, 255);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.settings:hover, .settings:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+
+.transcripts:link, .transcripts:visited {
+    color: rgb(27, 77, 228);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.transcripts:hover, .transcripts:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+.coursework:link, .coursework:visited {
+    color: rgb(107, 130, 255);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.coursework:hover, .coursework:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+.sources:link, .sources:visited {
+    color: rgb(50, 53, 247);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.sources:hover, .sources:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+.work:link, .work:visited {
+    color: rgb(27, 178, 228);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.work:hover, .work:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+.creative:link, .creative:visited {
+    color: rgb(91, 79, 230);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.creative:hover, .creative:active {
+    color: rgb(10, 13, 50);  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
+.critical:link, .critical:visited {
+    color: rgb(25, 156, 200);  /* Default and visited link color */
+    text-decoration: none;
+}
+
+.critical:hover, .critical:active {
+    color: darkblue;  /* Color when the link is hovered over or clicked */
+    text-decoration: dotted;
+}
