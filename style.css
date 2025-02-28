@@ -459,8 +459,15 @@ li {
 }
 .contactus_childblock{
     padding: 50px;
-}
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 8x;
 
+}
+.contactus_childblock2{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 8x;
+}
 .health-container {
     display: flex; /* Establishes a flex container */
     flex-wrap: nowrap; /* Prevents the divs from wrapping */
@@ -469,9 +476,13 @@ li {
 }
 
 .one {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     background-image: url('Image/subhanAllah.png');
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
+    box-shadow: 0px 4px 4px 2px rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -483,6 +494,10 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/healthbg.png');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -495,6 +510,10 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/img1bg.png');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
@@ -505,6 +524,10 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/BooksInshelves.jpeg');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -513,9 +536,13 @@ li {
     padding: 8px;
 }
 .five {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background-image: url('Image/neonclock.jpg');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -527,6 +554,10 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/Screenshot\ 2025-02-21\ 160649.png');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -538,6 +569,10 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/htmlimg.jpg');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -549,10 +584,15 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/familybg.jpeg');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
+    box-shadow: 0px 4px 4px 2px rgb(253, 223, 255);
     margin: 6px;
     padding: 8px;
 }
@@ -561,6 +601,7 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/football.png');
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -572,6 +613,10 @@ li {
     width: 180px;
     height: 180px;
     background-image: url('Image/pencils.jpg');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -580,9 +625,13 @@ li {
     padding: 8px;
 }
 .eleventh {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background-image: url('Image/laptopbg.png');
+    
+    background-color: rgb(255, 255, 255, 0.35);
+    border: 2px solid rgb(255, 255, 255, 0.75);
+    border-radius: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
