@@ -461,11 +461,132 @@ li {
     padding: 50px;
 }
 
-.health{
+.health-container {
+    display: flex; /* Establishes a flex container */
+    flex-wrap: nowrap; /* Prevents the divs from wrapping */
+    justify-content: center; /* Centers the divs horizontally */
+    align-items: center; /* Aligns the divs vertically */
+}
+
+.one {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/subhanAllah.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.two {
     width: 180px;
     height: 180px;
     background-image: url('Image/healthbg.png');
-    background-repeat: no-repeat; /* Prevent tiling */
-    background-position: center; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
+    margin: 6px;
+    padding: 8px;
+}
+
+.three {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/img1bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.four {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/BooksInshelves.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.five {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/neonclock.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.six {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/Screenshot\ 2025-02-21\ 160649.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.seven {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/htmlimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.eight {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/familybg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+
+.nineth {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/football.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.tenth {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/pencils.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+}
+.eleventh {
+    width: 180px;
+    height: 180px;
+    background-image: url('Image/laptopbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 6px;
+    padding: 8px;
 }
