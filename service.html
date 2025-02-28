@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website with Header and Footer</title>
+    <title id="page-title"></title>
     <style>
         header, footer {
             background-color: #f4f4f4;
@@ -22,11 +22,87 @@
 </head>
 <body>
     <div id="header-placeholder"></div> <!-- Placeholder for Header -->
+    <h1 id="page-title"></h1>
+    <!-- Main-->
+
+    <div class="container">
+        <div class="column">
+            <h2>Featured Services for all states</h2>
+            <strong>Expedia Travel Planner</strong>
+            <p><strong>Service Description:</strong> Simplify your travel planning with bookings, itinerary management, and local attraction discovery.</p>
+            <p><strong>Estimated Cost:</strong> Varies based on specific service packages.</p>
     
-    <main>
-        <h2>Welcome to My Website</h2>
-        <p>This is the main content of the page.</p>
-    </main>
+            <strong>Video AI Content Creator</strong>
+            <p><strong>Service Description:</strong> Create engaging videos with voiceovers in multiple languages, perfect for marketing and educational purposes.</p>
+            <p><strong>Estimated Cost:</strong> Typically ranges from $2,000 to $10,000 depending on video complexity and length</p>
+    
+            <strong>Instant Website Creator</strong>
+            <p><strong>Service Description:</strong> Get your business online quickly with full-service website creation including design, coding, and content writing.</p>
+            <p><strong>Estimated Cost:</strong> Web design services can range from $500 to $5,000, with dynamic and e-commerce sites at the higher end of this spectrum</p>
+    
+            <strong>Document Management AI</strong>
+            <p><strong>Service Description:</strong> Streamline file management with capabilities to create, organize, and integrate documents using advanced AI tools.</p>
+            <p><strong>Estimated Cost:</strong> Typically part of broader service packages, often custom priced based on client needs</p>
+    
+            <strong>AI Image Generator</strong>
+            <p><strong>Service Description:</strong> Generate custom images and refine visuals with AI, suitable for digital marketing and creative projects.</p>
+            <p><strong>Estimated Cost:</strong> Graphic design and media creation services can range from $60 to $150 for banners and $40 per static social media graphic</p>
+    
+            <strong>Custom Content Writer</strong>
+            <p><strong>Service Description:</strong> Receive content tailored to your business needs, from blog posts to full marketing campaigns.</p>
+            <p><strong>Estimated Cost:</strong> Content creation services can vary greatly, typically $30 per post or higher for more involved content strategies</p>
+    
+            <strong>Academic Research Assistant</strong>
+            <p><strong>Service Description:</strong> Enhance your research with access to over 200 million scholarly articles and academic resources.</p>
+            <p><strong>Estimated Cost:</strong> Custom pricing based on the scope of research and access required.</p>
+    
+            <strong>Logo Design Service</strong>
+            <p><strong>Service Description:</strong> Develop your brand identity with custom logo designs tailored to your business aesthetic.</p>
+            <p><strong>Estimated Cost:</strong> Logo design can range from $300 to $1,300 depending on the complexity and branding requirements</p>
+    
+            <strong>Comprehensive IT Consulting</strong>
+            <p><strong>IT Product & Software Selection</strong> Receive expert guidance on choosing the best IT products, computers, and software solutions for your business needs.</p>
+            <p><strong>Estimated Cost:</strong> Consulting fees can vary; typically, IT consulting services range from $100 to $300 per hour depending on the expertise and depth of consultation needed.</p>
+        </div>
+        <div class="column">
+            <h2>Featured Services for NYC</h2>
+            <strong>Expedia Travel Planner</strong>
+            <p><strong>Service Description:</strong> Simplify travel planning with our comprehensive service that handles bookings, itineraries, and local attraction discovery.</p>
+            <p><strong>Estimated Cost:</strong> Prices vary depending on the package and services chosen.</p>
+    
+            <strong>Video AI Content Creator</strong>
+            <p><strong>Service Description:</strong> Engage your audience with custom videos, featuring professional voiceovers in any language, ideal for both educational and promotional use.</p>
+            <p><strong>Estimated Cost:</strong> Video content creation costs can range from $1,200 to $20,000 depending on complexity and production values​</p>
+    
+            <strong>Instant Website Creator</strong>
+            <p><strong>Service Description:</strong> Quickly launch your business online with our complete website creation service, including design, coding, and content development.</p>
+            <p><strong>Estimated Cost:</strong> Website design services in New York City can range from $1,500 to $5,000​</p>
+    
+            <strong>Document Management AI</strong>
+            <p><strong>Service Description:</strong> Efficiently manage your documents with AI, offering capabilities to create, organize, and integrate files seamlessly.</p>
+            <p><strong>Estimated Cost:</strong> This service is often custom priced, so it's best to get a quote based on your specific needs.</p>
+    
+            <strong>AI Image Generator</strong>
+            <p><strong>Service Description:</strong> Create high-quality, customized images using advanced AI technology, perfect for marketing and creative projects.</p>
+            <p><strong>Estimated Cost:</strong> Typically, graphic design services such as social media graphics might range from $60 to $150 per piece​</p>
+    
+            <strong>Custom Content Writer</strong>
+            <p><strong>Service Description:</strong> Get bespoke content that fits your business needs perfectly, from web content to extensive marketing campaigns.</p>
+            <p><strong>Estimated Cost:</strong> Website content creation for 5 to 10 pages might cost between $1,500 and $4,500, depending on the scope and complexity​</p>
+    
+            <strong>Academic Research Assistant</strong>
+            <p><strong>Service Description:</strong> Enhance your research capabilities with access to academic databases and resources, ideal for detailed and scholarly works.</p>
+            <p><strong>Estimated Cost:</strong> Custom pricing based on research scope and resource access.</p>
+    
+            <strong>Logo Design Service</strong>
+            <p><strong>Service Description:</strong> Create a unique logo to define your brand identity, crafted by professional designers.</p>
+            <p><strong>Estimated Cost:</strong> Logo design can range from $300 to $1,500 depending on design complexity and branding requirements​</p>
+    
+            <strong>Comprehensive IT Consulting</strong>
+            <p><strong>Service Description:</strong> Consult with experts to choose the best IT products, computers, and software solutions that meet your specific business requirements.</p>
+            <p><strong>Estimated Cost:</strong> Consulting fees typically range from $100 to $300 per hour, varying with the level of expertise required.</p>
+        </div>
+    </div>
     
     <div id="footer-placeholder"></div> <!-- Placeholder for Footer -->
     
@@ -46,7 +122,7 @@
         loadComponent('header-placeholder', 'header.html');
         loadComponent('footer-placeholder', 'footer.html');
     </script>
-    <h1 id="page-title"></h1>
+    
 
     <script src="script.js"></script>
 </body>
